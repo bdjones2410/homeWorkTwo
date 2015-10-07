@@ -1,0 +1,112 @@
+/********************************************
+MAIN OCTOCAT IMAGES
+*********************************************/
+body {
+  font-weight: bold;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8px 8px 0 8px;
+  border-color: #cacaca transparent transparent transparent;
+float:right;
+margin-right: 5px;
+margin-left:100%;
+}
+
+.octodex {
+  margin: 0;
+  padding: 0;
+}
+
+.octocat {
+  max-width:100%;
+  float: left;
+  border-bottom: 1px #cacaca solid;
+}
+
+.octocat a img {
+  width: 100%;
+  border: 1px #cacaca solid;
+  float: left;
+  border-radius: 1%;
+}
+
+.octodex li {
+  display: inline-block;
+  float:left;
+  width:31%;
+  margin:15px 15px 0px 15px;
+
+}
+
+/********************************************
+FOOTER IMAGES
+*********************************************/
+.image-footer {
+  display: inline-block;
+  max-height: 50px;
+  width:100%;
+}
+.authors {
+  max-width: 100%;
+  display:inline-block;
+  padding:0;
+}
+.authors li a img {
+  display:inline-block;
+  width:25px;
+  border-radius:2px;
+  border-color: #cacaca;
+  margin-right: 0;
+  margin-left: 2px;
+
+  /*position: relative;*/
+  float:right;
+}
+.authors li {
+  display:inline-block;
+  float:right;
+  width:100%;
+  margin-right: 0;
+  margin-top:3px;
+
+}
+
+.image-caption {
+  max-height: 45px;
+  display: inline-block;
+  float:right;
+  color: 7D7777;
+  position: inherit;
+  height:100%;
+}
+
+.image-caption a {
+  text-decoration: none;
+  font-weight: bold;
+  color:#000;
+  position: relative;
+  top: -8px;
+}
+.image-caption span {
+  position: relative;
+  top: -8px;
+
+}
+.image-number::before {
+content:"#";
+color:#cacaca;
+}
+.image-number {
+  float:left;
+  color: #cacaca;
+  padding-top: 10px;
+}
+
+
+/********************************************
+AUTHOR
+*********************************************/
